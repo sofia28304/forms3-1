@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms 3_1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <p>Sign up now</p>
+    </header>
+    <ul>
+        <form>
+            <li>
+                <fieldset>
+                    <legend><span>1</span> Name & Address</legend>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required placeholder="Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                </fieldset>
+            </li>
+            <li>
+                <fieldset>
+                    <legend><span>2</span> Telefon & Email</legend>
+                    <label for="telefon">Telefon</label>
+                    <input type="number" name="telefon" id="telefon" placeholder="Rufnummer">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="abc@gmx.de">
+                </fieldset>
+            <li>
+                <fieldset>
+                    <legend><span>3</span> Zugangsdaten</legend>
+                    <label for="Benutzername">Benutzername</label>
+                    <input type="text" name="benutzername" id="benutzername" placeholder="Benutzername" required>
+                    <label for="password">Passwort</label>
+                    <input type="password" name="password" id="password" required>
+                    <article>
+                        <label for="checkbox" class="checkbox">
+                            AGB's akzeptieren</label>
+                        <input type="checkbox" name="agbs" class="checkbox">
+                        <input type="submit" value="Registrierung abschließen" class="button" />
+                    </article>
+                </fieldset>
+            </li>
+        </form>
+    </ul>
+</body>
+
+</html>

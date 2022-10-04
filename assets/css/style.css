@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(102, 102, 227);
+    text-align: center;
+    padding: 15px;
+}
+
+fieldset {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+legend {
+    text-align: center;
+}
+
+span {
+    background-color: rgb(102, 102, 227);
+    color: white;
+    border-radius: 20%;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 10%;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(172, 171, 171);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    margin: 10px auto;
+    background-color: rgb(102, 102, 227);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(14, 14, 211);
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
